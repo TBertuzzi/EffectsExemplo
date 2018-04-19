@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Xamarin.Forms;
 
-namespace EffectsExemplo.Effects
+namespace EffectsExemplo
 {
     public class FocusEffect : RoutingEffect
     {

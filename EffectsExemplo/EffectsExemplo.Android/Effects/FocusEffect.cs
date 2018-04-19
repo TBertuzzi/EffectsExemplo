@@ -9,9 +9,12 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using EffectsExemplo.Droid.Effects;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 
+[assembly: ResolutionGroupName("Bertuzzi")]
+[assembly: ExportEffect(typeof(FocusEffect), "FocusEffect")]
 namespace EffectsExemplo.Droid.Effects
 {
     public class FocusEffect : PlatformEffect
